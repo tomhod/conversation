@@ -207,8 +207,14 @@
                                   if(  wp.innerHTML= 'ok gn bye'){
                                     setTimeout(k, 4000)
                                  function k(){
-                                  var wp= document.getElementById('m');
+                                  var wp= document.getElementById('f');
                                   wp.innerHTML= 'bye. ';
+                                     
+                                     if(   wp.innerHTML= 'bye. '){
+                                    setTimeout(k,4000)
+                                 function k(){
+                                  var wp= document.getElementById('m');
+                                  wp.innerHTML= 'story will continue soon....';
  
     
 
@@ -216,7 +222,7 @@
                         
                         
 
-            }}}}}}}}}}}}}}}}}
+            }}}}}}}}}}}}}}}}}}}
         }
       }}}}}
     
